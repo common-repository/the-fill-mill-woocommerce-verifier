@@ -1,0 +1,179 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*FIRST TAB*/
+.tab-setup-account {
+	text-align: center;
+}
+
+.tab-setup-account .images-holder {
+	width: 900px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.tab-setup-account .images-holder img {
+	max-width: 100%;
+}
+.tab-setup-account .images-holder .image-item {
+	float: left;
+}
+.tab-setup-account .images-holder .inner {
+	padding: 0 25px 0 0;
+}
+.tab-setup-account .images-holder .first {
+	width: 43%;
+}
+.tab-setup-account .images-holder .second {
+	width: 14%;
+	margin-top: 55px;
+}
+.tab-setup-account .images-holder .third {
+	width: 43%;
+	margin-top: 15px;
+}
+
+.tab-setup-account h3 {
+	clear: both;
+	font-size: 28px;
+}
+
+.tab-setup-account .sublines {
+	font-size: 22px;
+}
+
+.tab-setup-account .button-holder {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.tab-setup-account .button-holder .button-primary {
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+    padding: 0 20px 1px;
+}
+
+.tab-setup-account .last-line {
+	font-size: 16px;
+}
+
+/*SECOND TAB*/
+.tab-account-credentials > .wrap {
+	width: 900px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.tab-account-credentials .postbox.left-col {
+	width: 45%;
+	float: left;
+}
+.tab-account-credentials .postbox.right-col {
+	width: 45%;
+	float: left;
+}
+.tab-account-credentials .postbox {
+	margin-right: 20px;
+}
+.tab-account-credentials .postbox h3 {
+	font-size: 16px;
+    padding: 10px 19px;
+    margin: 0;
+    line-height: 1.4;
+}
+.tab-account-credentials .postbox .container {
+	padding: 10px 14px;
+}
+.tab-account-credentials .postbox.right-col .container {
+	padding: 25px 19px 15px 19px;	
+	min-height: 50px;
+}
+.tab-account-credentials .tfm-form label {
+	display: block;
+	cursor: default;
+	margin: 0 0 8px 0 !important;
+	padding: 0 !important;
+	font-size: 14px;
+	color: #666;
+}
+body .tab-account-credentials .tfm-form input[type=text] {
+	width: 100% !important;
+}
+.tab-account-credentials .postbox .inside {
+	padding: 0;
+	margin: 0;
+}
+.tab-account-credentials .form-table td {
+	margin-bottom: 9px;
+    padding: 15px 5px;
+}
+.tab-account-credentials .button-primary {
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+    padding: 0 20px 1px;
+    float: right;
+}
+.tab-account-credentials .message {
+	margin-top: 0 !important;
+}
+.tab-account-credentials .message p {
+	margin-top: 0 !important;	
+	font-size: 14px !important;
+}
+
+.tab-account-credentials .message.error i {
+	color:#dc3232;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.tab-account-credentials .message.updated i {
+	color:#46b450;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 479px) {
+	.tab-setup-account .images-holder .second {
+		margin-top: 15px;
+	}
+	.tab-setup-account .images-holder .third {
+		margin-top: 5px;
+	}
+	.tab-setup-account h3 {
+		font-size: 22px;
+	}
+
+	.tab-setup-account .sublines {
+		font-size: 18px;
+	}
+
+	.tab-setup-account .button-holder .button-primary {
+	    height: 36px;
+	    line-height: 34px;
+	    font-size: 14px;
+	}
+
+	.tab-setup-account .last-line {
+		font-size: 14px;
+	}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	.tab-setup-account .images-holder .second {
+		margin-top: 35px;
+	}
+	.tab-setup-account .images-holder .third {
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 600px) {
+	.tab-account-credentials .postbox.left-col, 
+	.tab-account-credentials .postbox.right-col {
+		width: 100%;
+		margin-right: 0;
+	}
+}
